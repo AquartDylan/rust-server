@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<header>
+    <title>Joel</title>
+</header>
+<body>
+    <p id="joelIntro">
+        Boo! Eddie sucks.
+    </p>
+</body>
+<script>
+    async function joel() {
+        const response = await fetch("http://127.0.0.1:6969");
+        const joel = await response.json();
+        console.log(joel);
+    }
+    joel()
+</script>
+</html>
